@@ -4,7 +4,7 @@
 #
 Name     : pypi-json5
 Version  : 0.9.6
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/20/8c/66cde351ffff609a0bd7176e42f698781128bbcb3f28e00a6a857aa7af34/json5-0.9.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/20/8c/66cde351ffff609a0bd7176e42f698781128bbcb3f28e00a6a857aa7af34/json5-0.9.6.tar.gz
 Summary  : A Python implementation of the JSON5 data format.
@@ -15,9 +15,6 @@ Requires: pypi-json5-license = %{version}-%{release}
 Requires: pypi-json5-python = %{version}-%{release}
 Requires: pypi-json5-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: json5
-Provides: json5-python
-Provides: json5-python3
 
 %description
 # pyjson5
@@ -71,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641449044
+export SOURCE_DATE_EPOCH=1649770686
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

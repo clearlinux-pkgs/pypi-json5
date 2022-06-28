@@ -4,7 +4,7 @@
 #
 Name     : pypi-json5
 Version  : 0.9.8
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/c3/ba/0a38a13a04436bf631e639d75265c16bfcfb74289cb28347face00795130/json5-0.9.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/ba/0a38a13a04436bf631e639d75265c16bfcfb74289cb28347face00795130/json5-0.9.8.tar.gz
 Summary  : A Python implementation of the JSON5 data format.
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653339405
+export SOURCE_DATE_EPOCH=1656384766
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -121,7 +121,7 @@ rm -f %{buildroot}*/usr/lib/python3*/site-packages/tests/host_fake.py
 rm -f %{buildroot}*/usr/lib/python3*/site-packages/tests/host_test.py
 rm -f %{buildroot}*/usr/lib/python3*/site-packages/tests/lib_test.py
 rm -f %{buildroot}*/usr/lib/python3*/site-packages/tests/tool_test.py
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)

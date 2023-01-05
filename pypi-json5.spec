@@ -4,7 +4,7 @@
 #
 Name     : pypi-json5
 Version  : 0.9.11
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/da/8b/26535688697b6129c0ccec7806162db0d01c9bc8b8994ab1e87c32ef9648/json5-0.9.11.tar.gz
 Source0  : https://files.pythonhosted.org/packages/da/8b/26535688697b6129c0ccec7806162db0d01c9bc8b8994ab1e87c32ef9648/json5-0.9.11.tar.gz
 Summary  : A Python implementation of the JSON5 data format.

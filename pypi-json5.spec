@@ -6,10 +6,10 @@
 # autospec commit: e738c51
 #
 Name     : pypi-json5
-Version  : 0.9.18
-Release  : 50
-URL      : https://files.pythonhosted.org/packages/f3/6d/df9d9eb40dbfe2c743337b12641e4c584eb9299793fdc08b06757b16b9be/json5-0.9.18.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f3/6d/df9d9eb40dbfe2c743337b12641e4c584eb9299793fdc08b06757b16b9be/json5-0.9.18.tar.gz
+Version  : 0.9.20
+Release  : 51
+URL      : https://files.pythonhosted.org/packages/cc/4a/8791d1596d6d7b2792f3ac452e6cd3e52f255141d2485d6273494da603c6/json5-0.9.20.tar.gz
+Source0  : https://files.pythonhosted.org/packages/cc/4a/8791d1596d6d7b2792f3ac452e6cd3e52f255141d2485d6273494da603c6/json5-0.9.20.tar.gz
 Summary  : A Python implementation of the JSON5 data format.
 Group    : Development/Tools
 License  : Apache-2.0
@@ -67,10 +67,10 @@ python3 components for the pypi-json5 package.
 
 
 %prep
-%setup -q -n json5-0.9.18
-cd %{_builddir}/json5-0.9.18
+%setup -q -n json5-0.9.20
+cd %{_builddir}/json5-0.9.20
 pushd ..
-cp -a json5-0.9.18 buildavx2
+cp -a json5-0.9.20 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1709416741
+export SOURCE_DATE_EPOCH=1709568798
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
